@@ -12,7 +12,6 @@ There is **no authentication or login process** — all pages are accessible wit
 <p align="center">
   <!-- Frontend -->
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/PureCSS-1B2B34?style=for-the-badge&logo=css3&logoColor=1572B6" />
 
   <!-- Backend -->
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
