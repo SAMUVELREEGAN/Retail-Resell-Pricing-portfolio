@@ -1,0 +1,33 @@
+/* Base Social Icon Style */
+.social-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 30px !important;
+  background-color: #112d57 !important;
+  color: white !important;
+  text-decoration: none !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+
+/* Force icon color to white */
+.social-icon i {
+  color: white !important;
+}
+
+/* Hover background colors */
+.social-icon.facebook:hover {
+  background-color: #3b5998 !important;
+}
+.social-icon.instagram:hover {
+  background-color: #e1306c !important;
+}
+.social-icon.youtube:hover {
+  background-color: #ff0000 !important;
+}
+.social-icon.whatsapp:hover {
+  background-color: #25D366 !important;
+}

@@ -1,0 +1,75 @@
+@keyframes gradientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+  background: linear-gradient(-45deg, #ff6b6b, #f7d794, #6a89cc, #38ada9);
+  background-size: 400% 400%;
+  animation: gradientBackground 15s ease infinite;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.notfound-content {
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: fadeInUp 1s ease;
+}
+
+.notfound-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.notfound-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.notfound-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.notfound-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.notfound-home:hover {
+  background-color: #f1f1f1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

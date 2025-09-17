@@ -1,0 +1,136 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.item-card {
+  position: relative;
+  height: 390px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  /* border-radius: 12px; */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.item-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.item-image-cls{
+  width: 300px;
+  height: 200px;
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.item-card:hover .item-image{
+  transform: scale(1.01);
+}
+
+.item-name-wrapper {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.item-titlew {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  width: 290px !important;
+}
+
+
+.item-descriptionqwa {
+ font-size: 0.95rem;
+  color: #333;
+  text-align: center;
+  white-space: normal;
+  overflow: hidden;
+  padding: 0px 13px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 70px;
+}
+
+
+
+
+.item-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+  position: absolute;
+  right: 10px;
+}
+
+.star-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: #ffd700;
+  color: #000;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+
+
+/* @media (max-width: 425px) {
+  .item-card {
+    max-width: 200px;
+   
+  }
+
+  .item-title {
+    font-size: 1.1rem;
+  }
+  .item-image{
+    width: 100%;
+    height: 120px !important;
+  }
+
+  .item-price {
+    font-size: 1.1rem;
+    left: auto;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+
+  .item-description {
+    display: none;
+  }
+
+  .item-image {
+    height: 180px; 
+  }
+  .item_size{
+    display: none;
+  }
+} */

@@ -1,0 +1,38 @@
+.compare-page {
+  background-color: #f8f9fa;
+}
+
+.compare-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.compare-table th,
+.compare-table td {
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+/* Force equal widths for product columns */
+.compare-table th:not(:first-child),
+.compare-table td:not(:first-child) {
+  width: calc(100% / 3); /* Adjust if more or fewer products */
+}
+
+/* Style image cells */
+.compare-table img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* Fixed height for name row */
+.compare-table .row-pro_name td {
+  /* height: 100px; */
+  vertical-align: top;
+}
+
+/* Fixed height for description row */
+.compare-table .row-description td {
+  /* height: 200px; */
+  vertical-align: top;
+}

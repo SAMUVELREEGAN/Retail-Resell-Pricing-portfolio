@@ -1,0 +1,99 @@
+/* ========== Cart Item Modern Card ========== */
+.cart-item-modern {
+  background: linear-gradient(to right, #ffffff, #f9f9f9);
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.cart-item-modern:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ========== Cart Image ========== */
+.cart-img-modern {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+/* ========== Quantity Buttons ========== */
+.quantity-btn {
+  min-width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+
+}
+
+.quantity-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* ========== Price / Total ========== */
+.total-price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #198754;
+}
+
+.cart-item-modern .text-success {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* ========== Enquiry Form Styling ========== */
+.form-label {
+  font-weight: 500;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.card-title svg {
+  margin-right: 8px;
+}
+
+/* ========== Remove Button ========== */
+.btn-danger {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+}
+
+/* ========== Responsive Adjustments ========== */
+@media (max-width: 768px) {
+  .cart-img-modern {
+    width: 70px;
+    height: 70px;
+  }
+
+  .cart-item-modern {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .total-price {
+    text-align: right;
+    font-size: 1.1rem;
+  }
+}
