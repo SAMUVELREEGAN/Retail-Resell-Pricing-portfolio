@@ -84,9 +84,26 @@ This repository contains **two main directories**:
 
 ---
 
+
+🎯 Future Enhancements
+
+1.Add authentication (Admin, Dealer, User roles)
+2.Payment gateway integration
+3.Dealer dashboard with analytics
+4.Multi-language support
+
+📌 Disclaimer:
+
+This project is created only for portfolio purposes.
+It demonstrates technical skills in React, Django, and MySQL but does not include authentication, security hardening, or production deployment features.
+
+
 ### 1️⃣ Backend Setup (merge/)
 ```bash
 cd merge
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+
+
