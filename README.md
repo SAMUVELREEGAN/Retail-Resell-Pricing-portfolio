@@ -7,7 +7,26 @@ The system demonstrates **separate modules for Admin, Users, and Dealers** with 
 There is **no authentication or login process** — all pages are accessible without credentials.
 
 ---
+## 🛠️ Tech Stack
 
+<p align="center">
+  <!-- Frontend -->
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/PureCSS-1B2B34?style=for-the-badge&logo=css3&logoColor=1572B6" />
+
+  <!-- Backend -->
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
+  <img src="https://img.shields.io/badge/DRF-092E20?style=for-the-badge&logo=django&logoColor=white" />
+
+  <!-- Database -->
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+
+  <!-- Communication -->
+  <img src="https://img.shields.io/badge/API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+</p>
+
+
+---
 ## 📸 Screenshots
 `Admin-Dashboard`,
 ![Screenshot_17-9-2025_16229_localhost](https://github.com/user-attachments/assets/1737692d-9e52-4273-b064-158c09a80c85)
@@ -63,15 +82,7 @@ There is **no authentication or login process** — all pages are accessible wit
 - Submit all products via **enquiry format**  
 - Enquiries automatically sent to both **admin & dealer via email**  
 - Generate unlimited dealer-specific product links  
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React (with API integration), PuredCSS (optional styling)  
-- **Backend:** Django, Django REST Framework  
-- **Database:** MySQL  
-- **Communication:** API calls from React → Django REST (IP based)  
+ 
 
 ---
 
